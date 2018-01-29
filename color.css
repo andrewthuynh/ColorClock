@@ -1,0 +1,14 @@
+body {
+  background-color: #000001;
+  transition: 2s;
+}
+
+#container {
+  text-align: center;
+  color: #ffffff;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 100px;
+  text-transform: uppercase;
+  transition: 1s;
+}

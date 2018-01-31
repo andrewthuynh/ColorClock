@@ -2,9 +2,8 @@
 <html lang="en">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+<!-- Random color -->
 <script>
-
 	  window.setInterval(function(){
 
     var randomColor = '#'+ ('000000' + Math.floor(Math.random()*16777215).toString(16)).slice(-6);
@@ -15,7 +14,7 @@
 
   }, 2000);
 </script>
-
+<!-- Clock functionality -->
 <script>
 function startTime() {
     var today = new Date();
@@ -39,7 +38,7 @@ function checkTime(i) {
 </head>
 
 <html>
-  
+  <!--- Runtime --->
   <body onload="startTime()">
     
     <div id="container">
